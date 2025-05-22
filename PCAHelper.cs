@@ -11,7 +11,7 @@ namespace projection
         {
             int n = points.Length;
 
-            // Convert to matrix and center
+           
             var data = Matrix<double>.Build.Dense(n, 3);
             var mean = Vector3.Zero;
 
